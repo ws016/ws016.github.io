@@ -10,6 +10,39 @@
 body {
     font-family: 'Akronim';font-size: 22px;
 }
+		
+#gr_updates_widget{
+border-radius: 5px;
+background-color:#fff;
+border:solid #683205 10px;
+-webkit-box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+-moz-box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+padding:15px 0 35px 15px;
+width:250px;
+height:330px;
+}
+#gr_footer{
+margin-bottom:10px;
+}
+#gr_updates_widget p{
+padding:0px;
+margin:0;
+font-size:14px;
+}
+#gr_footer img{
+width:100px;
+float:left;
+}
+#gr_updates_widget img{
+	border-style:none;
+}
+</style>
+	
+
 </style>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -208,7 +241,7 @@ function drawChart() {
 }
 </script>
   </div>
-  
+  <div class="container my-3">
 <div id="gr_challenge_11621" style="border: 2px solid #EBE8D5; border-radius:10px; padding: 0px 7px 0px 7px; max-width:230px; min-height: 100px">
   <div id="gr_challenge_progress_body_11621" style="font-size: 12px; font-family: georgia,serif;line-height: 18px">
     <h3 style="margin: 4px 0 10px; font-weight: normal; text-align: center">
@@ -237,6 +270,14 @@ function drawChart() {
 </div>
 	<div>
 <span style="color: #382110">Books that I have read:</span><br/><a href="https://www.goodreads.com/review/list/75686806?shelf=read" title="Wreet Sarker's book recommendations, liked quotes, book clubs, book trivia, book lists (read shelf)", rel="nofollow"><img border="0" alt="Wreet Sarker's book recommendations, liked quotes, book clubs, book trivia, book lists (read shelf)" src="https://www.goodreads.com/images/badge/badge1.jpg"></a>
+	</div>
+	
+	<div id="gr_updates_widget">
+	  <iframe id="the_iframe" src="https://www.goodreads.com/widgets/user_update_widget?height=400&num_updates=3&user=75686806&width=250" width="248" height="330" frameborder="0"></iframe>
+		<div id="gr_footer">
+		  <a href="https://www.goodreads.com/"><img alt="Goodreads: Book reviews, recommendations, and discussion" rel="nofollow" src="https://www.goodreads.com/images/layout/goodreads_logo_140.png" /></a>
+		</div>
+	</div>
 	</div>
   <div class="container my-3">
     <h1 class="my-3">Experience</h1>
